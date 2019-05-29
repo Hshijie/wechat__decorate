@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/banner/banner",
+    "pages/home/home",
+    "pages/biaodan/biaodan",
+    "pages/my/my",
+    "pages/stylelist/stylelist",
+    "pages/caselist/caselist",
+    "pages/service/service",
+    "pages/search/search",
+    "pages/maps/maps",
+    "pages/caselist/caselistPage/caselistPage",
+    "pages/stylelist/stylelistPage/stylelistPage",
+    "pages/yuyue/yuyue",
+    "pages/designer/designer",
+    "pages/collection/collection",
+    "pages/gift/gift",
+    "pages/same/same",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "吉家装饰",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#222",
+    "selectedColor": "#833a3a",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/tabBar_1.png",
+        "selectedIconPath": "/images/tabBar1.png"
+      },
+      {
+        "pagePath": "pages/banner/banner",
+        "text": "吉家送礼品",
+        "iconPath": "/images/tabBar_2.png",
+        "selectedIconPath": "/images/tabBar2.png"
+      },
+      {
+        "pagePath": "pages/biaodan/biaodan",
+        "text": "预约",
+        "iconPath": "/images/tabBar_3.png",
+        "selectedIconPath": "/images/tabBar3.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/tabBar_4.png",
+        "selectedIconPath": "/images/tabBar4.png"
+      }
+    ]
+  },
+  "plugins": {
+    "myPlugin": {
+      "version": "1.0.6",
+      "provider": "wx5bc2ac602a747594"
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

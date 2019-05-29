@@ -1,0 +1,116 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"uglifyFileName": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.2",
+	"appid": "wx302ba6c4289ae69d",
+	"projectname": "jijia",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 9,
+			"list": [
+				{
+					"id": 0,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "search",
+					"pathName": "pages/search/search",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "popularRecommend",
+					"pathName": "pages/stylelist/popularRecommend/popularRecommend",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "classicDecoration",
+					"pathName": "pages/stylelist/classicDecoration/classicDecoration",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "stylelist",
+					"pathName": "pages/stylelist/stylelist",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "luxuryEnjoy",
+					"pathName": "pages/stylelist/luxuryEnjoy/luxuryEnjoy",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "classicDecoration",
+					"pathName": "pages/stylelist/classicDecoration/classicDecoration",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "service",
+					"pathName": "pages/service/service",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "designer",
+					"pathName": "pages/designer/designer",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "page",
+					"pathName": "pages/stylelist/stylelistPage/stylelistPage",
+					"scene": null
+				}
+			]
+		}
+	}
+}
